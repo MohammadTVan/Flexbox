@@ -1,0 +1,127 @@
+header{
+    height: 100px;
+    width: 100%;
+background-color: aqua;
+}
+footer{
+    height: 40px;
+    width: 100%;
+    background-color: aqua;
+
+}
+.menu{
+    background-color: rgb(218, 214, 214);
+    display: flex;
+    flex-direction: row;
+}
+.menu1{
+min-height: 40px;
+flex: 1;
+text-align: center;
+}
+.menu2{
+    min-height: 40px;
+    flex: 1;
+    text-align: center;
+}
+.menu3{
+    min-height: 40px;
+    flex: 1;
+    text-align: center;
+}
+.Feature{
+    background-color: burlywood;
+    height: 600px;
+    display: block;
+    width: 100%;
+    
+    
+}
+.Feature1{
+    background-color: greenyellow;
+    float: left;
+    
+    width: 25%;
+    margin: 30px;
+    text-align: center;
+    
+}
+.Feature2{
+    background-color: greenyellow;
+   
+    float: left;
+    
+    width: 25%;
+    margin: 30px;
+    text-align: center;
+}
+.Feature3{
+    background-color: greenyellow;
+    
+    float: left;
+    
+    width: 25%;
+    margin: 30px;
+    text-align: center;
+}
+article{
+    float: left;
+    width: 80%;
+    position: relative;
+}
+aside{
+    background-color: tomato;
+    float: left;
+    width: 20%;
+    height: 600px;
+    
+}
+footer{
+    clear: both;
+    
+}
+@media screen and (max-width:600px){
+.menu{
+    flex-direction: column;
+}
+.Feature{
+    background-color: burlywood;
+    height: 600px;
+    display: block;
+    width: 100%;
+    
+    
+}
+.Feature1{
+    background-color: red;
+    
+    width: 70%;
+    margin: 30px;
+    text-align: center;
+
+    
+}
+.Feature2{
+    background-color: red;
+   
+    
+    
+    width: 70%;
+    margin: 30px;
+    text-align: center;
+    clear: both;
+}
+.Feature3{
+    background-color: red;
+   clear: both;
+    width:70%;
+    margin: 30px;
+    text-align: center;
+}
+aside{
+    display: none;
+}
+article{
+    width: 100%;
+}
+}
